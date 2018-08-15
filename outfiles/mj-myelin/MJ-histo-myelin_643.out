@@ -1,0 +1,165 @@
+SLURM_JOBID:  27449205
+SLURM_ARRAY_TASK_ID:  643
+SLURM_ARRAY_JOB_ID:  27449157
+PROJECT:  nSMDA
+SUBJECT:  new_mj
+MONKEY_NAME:  mj
+STAIN:  myelin
+PICKLE_PATH:  /home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-myelin.p
+SLICE_NUM:  643
+TMP_DIR:  /tmp/aimantj/mj-myelin-slice-643
+STOR_DIR:  /scratch/aimantj/mj-myelin
+/home/aimantj/xnatenv/lib/python2.7/site-packages/dicom/__init__.py:53: UserWarning: 
+This code is using an older version of pydicom, which is no longer 
+maintained as of Jan 2017.  You can access the new pydicom features and API 
+by installing `pydicom` from PyPI.
+See 'Transitioning to pydicom 1.x' section at pydicom.readthedocs.org 
+for more information.
+
+  warnings.warn(msg)
+INFO: connection to xnat <http://xnat2.vanderbilt.edu:8080/xnat>:
+INFO: Accessing scans/assessors information from XNAT.
+Reading download_report.csv from previous download: done.
+filtering scans and assessors from previous download.
+Extracting information from Xnat and previous download: done.
+INFO: Number of scans/assessors that needs to be download per Project (after filters):
+---------------------------------------------------------------
+| Project ID           | Number of Scans | Number of Assessors |
+---------------------------------------------------------------
+| nSMDA                | 1               | 1                   |
+---------------------------------------------------------------
+
+INFO: Downloading Data for each pair project/subject..
+ * 1/1 Project/Subject : nSMDA/new_mj
+  +session nSMDA-mj-histo-myelin -- scan mj-histo-myelin-hi_res_files -- type: mj-histo-myelin-hi_res_files
+  +proc mj-histo-myelin-df_files
+============================================================
+[?1034h################################################################
+#                         XNATDOWNLOAD                         #
+#                                                              #
+# Developed by the MASI Lab Vanderbilt University, TN, USA.    #
+# If issues, please start a thread here:                       #
+# https://groups.google.com/forum/#!forum/vuiis-cci            #
+# Usage:                                                       #
+#     Download data from XNAT based on input args              #
+# Parameters :                                                 #
+#     Directory            -> /tmp/aimantj/mj-myelin-slice-643 #
+#     Project(s)           -> nSMDA                            #
+#     Subject(s)           -> new_mj                           #
+#     Session(s)           -> nSMDA-mj-histo-myelin            #
+#     Scan types           -> mj-histo-myelin-hi_res_files     #
+#     Resources Scan       -> slice_643                        #
+#     Process types        -> mj-histo-myelin-df_files         #
+#     Resources Process    -> slice_643-light_block3_01        #
+#     No sub-dir mode      -> on                               #
+################################################################
+IMPORTANT WARNING FOR ALL USERS: 
+  --update OPTIONS isn't working.
+  The last modified resources date can't be access right now 
+  if XNAT version is less than 1.6.5.
+=====================================================================
+Filtering the subjects...
+Filtering the sessions...
+Filtering the subjects...
+Filtering the sessions...
+/home/aimantj/xnatenv/lib/python2.7/site-packages/dicom/__init__.py:53: UserWarning: 
+This code is using an older version of pydicom, which is no longer 
+maintained as of Jan 2017.  You can access the new pydicom features and API 
+by installing `pydicom` from PyPI.
+See 'Transitioning to pydicom 1.x' section at pydicom.readthedocs.org 
+for more information.
+
+  warnings.warn(msg)
+WARNING: the command line you are running is different than the one you ran last time. You might have some data different for both command.
+ *previous command: /home/aimantj/xnatenv/bin/Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-hi_res_files --rs=slice_643 --assessortype=mj-histo-myelin-df_files --ra=slice_643-light_block3_01 --directory=/tmp/aimantj/mj-myelin-slice-643 --oneDirectory
+ *current command:  /home/aimantj/xnatenv/bin/Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-scn_files --rs=slice_638 --directory=/tmp/aimantj/mj-myelin-slice-643 --oneDirectory
+INFO: connection to xnat <http://xnat2.vanderbilt.edu:8080/xnat>:
+INFO: Accessing scans/assessors information from XNAT.
+Reading download_report.csv from previous download: done.
+filtering scans and assessors from previous download.
+Extracting information from Xnat and previous download: done.
+INFO: Number of scans/assessors that needs to be download per Project (after filters):
+---------------------------------------------------------------
+| Project ID           | Number of Scans | Number of Assessors |
+---------------------------------------------------------------
+| nSMDA                | 1               | 0                   |
+---------------------------------------------------------------
+
+INFO: Downloading Data for each pair project/subject..
+ * 1/1 Project/Subject : nSMDA/new_mj
+  +session nSMDA-mj-histo-myelin -- scan mj-histo-myelin-scn_files -- type: mj-histo-myelin-scn_files
+============================================================
+[?1034h################################################################
+#                         XNATDOWNLOAD                         #
+#                                                              #
+# Developed by the MASI Lab Vanderbilt University, TN, USA.    #
+# If issues, please start a thread here:                       #
+# https://groups.google.com/forum/#!forum/vuiis-cci            #
+# Usage:                                                       #
+#     Download data from XNAT based on input args              #
+# Parameters :                                                 #
+#     Directory            -> /tmp/aimantj/mj-myelin-slice-643 #
+#     Project(s)           -> nSMDA                            #
+#     Subject(s)           -> new_mj                           #
+#     Session(s)           -> nSMDA-mj-histo-myelin            #
+#     Scan types           -> mj-histo-myelin-scn_files        #
+#     Resources Scan       -> slice_638                        #
+#     No sub-dir mode      -> on                               #
+################################################################
+IMPORTANT WARNING FOR ALL USERS: 
+  --update OPTIONS isn't working.
+  The last modified resources date can't be access right now 
+  if XNAT version is less than 1.6.5.
+=====================================================================
+Filtering the subjects...
+Filtering the sessions...
+Filtering the subjects...
+Filtering the sessions...
+{'project': 'nSMDA', 'subject': 'new_mj', 'monkey_name': 'mj', 'stain': 'myelin', 'slice_num': 643, 'tmp_dir': '/tmp/aimantj/mj-myelin-slice-643', 'stor_dir': '/scratch/aimantj/mj-myelin', 'pickle_path': '/home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-myelin.p', 'scn_to_use': 638, 'slices_in_this_scn': 2}
+command is: 
+ source ~/xnatenv/bin/activate && source ~/.xnat_profile && Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-hi_res_files --rs=slice_643 --assessortype=mj-histo-myelin-df_files --ra=slice_643-light_block3_01 --directory=/tmp/aimantj/mj-myelin-slice-643 --oneDirectory && source deactivate 
+
+command is: 
+ source ~/xnatenv/bin/activate && source ~/.xnat_profile && Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-scn_files --rs=slice_638 --directory=/tmp/aimantj/mj-myelin-slice-643 --oneDirectory && source deactivate 
+
+man_img_path : /tmp/aimantj/mj-myelin-slice-643/nSMDA-x-new_mj-x-nSMDA-mj-histo-myelin-x-mj-histo-myelin-hi_res_files-x-slice_643__643.tif
+df_path : /tmp/aimantj/mj-myelin-slice-643/mj-histo-myelin-df_files-x-slice_643-light_block3_01__light_block3_01.df
+scn_path : /tmp/aimantj/mj-myelin-slice-643/nSMDA-x-new_mj-x-nSMDA-mj-histo-myelin-x-mj-histo-myelin-scn_files-x-slice_638__09-43-MAIN-F-638_2014-06-252023_50_03.scn
+File paths look good
+
+Region found: 0
+Region found: 1
+Region found: 2
+
+reading manual_img
+fixing bg holes
+bg_color is: [223, 222, 221]
+resizing manual_img to lv2
+
+preprocessing manual_img
+Calculating cross correlations
+{'name': '0', 'x0': 55044, 'y0': 13233, 'w0': 40992, 'h0': 57760, 'norm_corr': 20.133438996090227, 'lm_R0': 0, 'lm_C0': -2}
+{'name': '1', 'x0': 7998, 'y0': 51220, 'w0': 40768, 'h0': 62848, 'norm_corr': 10.442747313978723, 'lm_R0': -250, 'lm_C0': -418}
+{'name': '2', 'x0': 45764, 'y0': 65574, 'w0': 21120, 'h0': 42976, 'norm_corr': 4.3249036919079273, 'lm_R0': -5475, 'lm_C0': 21229}
+regions kept: ['0', '1']
+
+checking for unwanted regions:
+shift ranges: [38237 46630]
+acceptable shift ranges: [ 8664.   6148.8]
+Traceback (most recent call last):
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 544, in move
+    os.rename(src, real_dst)
+OSError: [Errno 18] Invalid cross-device link: '/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643' -> '/scratch/aimantj/mj-myelin/mj-myelin-slice-643'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aimantj/histology_shredder/python-shredder/accre_shredder_wrapper.py", line 28, in <module>
+    shred_one_slice(slice_info)
+  File "/gpfs22/home/aimantj/histology_shredder/python-shredder/shred_one_slice.py", line 91, in shred_one_slice
+    shutil.move(src=slice_dir, dst=store_path)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 555, in move
+    symlinks=True)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 359, in copytree
+    raise Error(errors)
+shutil.Error: [('/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643/0.png', '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/0.png', "[Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/0.png'"), ('/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643/man_img.png', '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/man_img.png', "[Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/man_img.png'"), ('/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643/1.png', '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/1.png', "[Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/1.png'"), ('/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643/slide.png', '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/slide.png', "[Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-643/slide.png'"), ('/tmp/aimantj/mj-myelin-slice-643/mj-myelin-slice-643', '/scratch/aimantj/mj-myelin/mj-myelin-slice-643', "[Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-643'")]

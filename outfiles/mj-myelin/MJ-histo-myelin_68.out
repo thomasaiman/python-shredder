@@ -1,0 +1,17 @@
+SLURM_JOBID:  27290896
+SLURM_ARRAY_TASK_ID:  68
+SLURM_ARRAY_JOB_ID:  27290069
+PROJECT:  nSMDA
+SUBJECT:  new_mj
+MONKEY_NAME:  mj
+STAIN:  myelin
+PICKLE_PATH:  /home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-myelin.p
+SLICE_NUM:  68
+TMP_DIR:  /tmp/aimantj/mj-myelin-slice-68
+STOR_DIR:  /scratch/aimantj/mj-myelin
+Traceback (most recent call last):
+  File "/home/aimantj/histology_shredder/python-shredder/shredder_accre_wrapper.py", line 17, in <module>
+    scn_to_use, slices_in_this_scn = scn_solver(si['pickle_path'], si['slice_num'])
+  File "/gpfs22/home/aimantj/histology_shredder/python-shredder/file_utils.py", line 15, in scn_solver
+    if d[slice_num]['df_files'] == 0:
+KeyError: 68

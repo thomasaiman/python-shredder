@@ -1,0 +1,17 @@
+SLURM_JOBID:  27861523
+SLURM_ARRAY_TASK_ID:  586
+SLURM_ARRAY_JOB_ID:  27861523
+PROJECT:  nSMDA
+SUBJECT:  new_mj
+MONKEY_NAME:  mj
+STAIN:  BDA
+PICKLE_PATH:  /home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-BDA.p
+SLICE_NUM:  586
+TMP_DIR:  /tmp/aimantj/mj-BDA-slice-586
+STOR_DIR:  /scratch/aimantj/mj-BDA
+Traceback (most recent call last):
+  File "/home/aimantj/histology_shredder/python-shredder/accre_shredder_wrapper.py", line 17, in <module>
+    scn_to_use, slices_in_this_scn = scn_solver(si['pickle_path'], si['slice_num'])
+  File "/gpfs22/home/aimantj/histology_shredder/python-shredder/file_utils.py", line 16, in scn_solver
+    raise ValueError("Slice {} doesn't have a df file".format(slice_num))
+ValueError: Slice 586 doesn't have a df file

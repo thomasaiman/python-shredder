@@ -1,0 +1,805 @@
+SLURM_JOBID:  27342949
+SLURM_ARRAY_TASK_ID:  243
+SLURM_ARRAY_JOB_ID:  27342891
+PROJECT:  nSMDA
+SUBJECT:  new_mj
+MONKEY_NAME:  mj
+STAIN:  myelin
+PICKLE_PATH:  /home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-myelin.p
+SLICE_NUM:  243
+TMP_DIR:  /tmp/aimantj/mj-myelin-slice-243
+STOR_DIR:  /scratch/aimantj/mj-myelin
+/home/aimantj/xnatenv/lib/python2.7/site-packages/dicom/__init__.py:53: UserWarning: 
+This code is using an older version of pydicom, which is no longer 
+maintained as of Jan 2017.  You can access the new pydicom features and API 
+by installing `pydicom` from PyPI.
+See 'Transitioning to pydicom 1.x' section at pydicom.readthedocs.org 
+for more information.
+
+  warnings.warn(msg)
+INFO: connection to xnat <http://xnat2.vanderbilt.edu:8080/xnat>:
+INFO: Accessing scans/assessors information from XNAT.
+Reading download_report.csv from previous download: done.
+filtering scans and assessors from previous download.
+Extracting information from Xnat and previous download: done.
+INFO: Number of scans/assessors that needs to be download per Project (after filters):
+---------------------------------------------------------------
+| Project ID           | Number of Scans | Number of Assessors |
+---------------------------------------------------------------
+| nSMDA                | 1               | 1                   |
+---------------------------------------------------------------
+
+INFO: Downloading Data for each pair project/subject..
+ * 1/1 Project/Subject : nSMDA/new_mj
+  +session nSMDA-mj-histo-myelin -- scan mj-histo-myelin-hi_res_files -- type: mj-histo-myelin-hi_res_files
+  +proc mj-histo-myelin-df_files
+============================================================
+[?1034h################################################################
+#                         XNATDOWNLOAD                         #
+#                                                              #
+# Developed by the MASI Lab Vanderbilt University, TN, USA.    #
+# If issues, please start a thread here:                       #
+# https://groups.google.com/forum/#!forum/vuiis-cci            #
+# Usage:                                                       #
+#     Download data from XNAT based on input args              #
+# Parameters :                                                 #
+#     Directory            -> /tmp/aimantj/mj-myelin-slice-243 #
+#     Project(s)           -> nSMDA                            #
+#     Subject(s)           -> new_mj                           #
+#     Session(s)           -> nSMDA-mj-histo-myelin            #
+#     Scan types           -> mj-histo-myelin-hi_res_files     #
+#     Resources Scan       -> slice_243                        #
+#     Process types        -> mj-histo-myelin-df_files         #
+#     Resources Process    -> slice_243-light_block3_01        #
+#     No sub-dir mode      -> on                               #
+################################################################
+IMPORTANT WARNING FOR ALL USERS: 
+  --update OPTIONS isn't working.
+  The last modified resources date can't be access right now 
+  if XNAT version is less than 1.6.5.
+=====================================================================
+Filtering the subjects...
+Filtering the sessions...
+Filtering the subjects...
+Filtering the sessions...
+/home/aimantj/xnatenv/lib/python2.7/site-packages/dicom/__init__.py:53: UserWarning: 
+This code is using an older version of pydicom, which is no longer 
+maintained as of Jan 2017.  You can access the new pydicom features and API 
+by installing `pydicom` from PyPI.
+See 'Transitioning to pydicom 1.x' section at pydicom.readthedocs.org 
+for more information.
+
+  warnings.warn(msg)
+WARNING: the command line you are running is different than the one you ran last time. You might have some data different for both command.
+ *previous command: /home/aimantj/xnatenv/bin/Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-hi_res_files --rs=slice_243 --assessortype=mj-histo-myelin-df_files --ra=slice_243-light_block3_01 --directory=/tmp/aimantj/mj-myelin-slice-243 --oneDirectory
+ *current command:  /home/aimantj/xnatenv/bin/Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-scn_files --rs=slice_243 --directory=/tmp/aimantj/mj-myelin-slice-243 --oneDirectory
+INFO: connection to xnat <http://xnat2.vanderbilt.edu:8080/xnat>:
+INFO: Accessing scans/assessors information from XNAT.
+Reading download_report.csv from previous download: done.
+filtering scans and assessors from previous download.
+Extracting information from Xnat and previous download: done.
+INFO: Number of scans/assessors that needs to be download per Project (after filters):
+---------------------------------------------------------------
+| Project ID           | Number of Scans | Number of Assessors |
+---------------------------------------------------------------
+| nSMDA                | 1               | 0                   |
+---------------------------------------------------------------
+
+INFO: Downloading Data for each pair project/subject..
+ * 1/1 Project/Subject : nSMDA/new_mj
+  +session nSMDA-mj-histo-myelin -- scan mj-histo-myelin-scn_files -- type: mj-histo-myelin-scn_files
+============================================================
+[?1034h################################################################
+#                         XNATDOWNLOAD                         #
+#                                                              #
+# Developed by the MASI Lab Vanderbilt University, TN, USA.    #
+# If issues, please start a thread here:                       #
+# https://groups.google.com/forum/#!forum/vuiis-cci            #
+# Usage:                                                       #
+#     Download data from XNAT based on input args              #
+# Parameters :                                                 #
+#     Directory            -> /tmp/aimantj/mj-myelin-slice-243 #
+#     Project(s)           -> nSMDA                            #
+#     Subject(s)           -> new_mj                           #
+#     Session(s)           -> nSMDA-mj-histo-myelin            #
+#     Scan types           -> mj-histo-myelin-scn_files        #
+#     Resources Scan       -> slice_243                        #
+#     No sub-dir mode      -> on                               #
+################################################################
+IMPORTANT WARNING FOR ALL USERS: 
+  --update OPTIONS isn't working.
+  The last modified resources date can't be access right now 
+  if XNAT version is less than 1.6.5.
+=====================================================================
+Filtering the subjects...
+Filtering the sessions...
+Filtering the subjects...
+Filtering the sessions...
+{'project': 'nSMDA', 'subject': 'new_mj', 'monkey_name': 'mj', 'stain': 'myelin', 'slice_num': 243, 'tmp_dir': '/tmp/aimantj/mj-myelin-slice-243', 'stor_dir': '/scratch/aimantj/mj-myelin', 'pickle_path': '/home/aimantj/histology_shredder/slice-relationships/nSMDA-mj-histo-myelin.p', 'scn_to_use': 243, 'slices_in_this_scn': 2}
+command is: 
+ source ~/xnatenv/bin/activate && source ~/.xnat_profile && Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-hi_res_files --rs=slice_243 --assessortype=mj-histo-myelin-df_files --ra=slice_243-light_block3_01 --directory=/tmp/aimantj/mj-myelin-slice-243 --oneDirectory && source deactivate 
+
+command is: 
+ source ~/xnatenv/bin/activate && source ~/.xnat_profile && Xnatdownload --project=nSMDA --subj=new_mj --sess=nSMDA-mj-histo-myelin --scantype=mj-histo-myelin-scn_files --rs=slice_243 --directory=/tmp/aimantj/mj-myelin-slice-243 --oneDirectory && source deactivate 
+
+{'scn_path': '/tmp/aimantj/mj-myelin-slice-243/nSMDA-x-new_mj-x-nSMDA-mj-histo-myelin-x-mj-histo-myelin-scn_files-x-slice_243__09-43-MAIN-F-243_2014-06-242010_44_22.scn', 'df_path': '/tmp/aimantj/mj-myelin-slice-243/mj-histo-myelin-df_files-x-slice_243-light_block3_01__light_block3_01.df', 'man_img_path': '/tmp/aimantj/mj-myelin-slice-243/nSMDA-x-new_mj-x-nSMDA-mj-histo-myelin-x-mj-histo-myelin-hi_res_files-x-slice_243__243.tif'}
+File paths look good 
+
+/tmp/aimantj/mj-myelin-slice-243
+Region found: 0
+Region found: 1
+preprocessing manual_img: 
+
+Calculating cross correlations 
+
+{'name': '0', 'x0': 3806, 'y0': 46840, 'w0': 40096, 'h0': 66816, 'norm_corr': 25.60909110857035, 'lm_R0': -2, 'lm_C0': 0}
+{'name': '1', 'x0': 42230, 'y0': 9502, 'w0': 41440, 'h0': 68160, 'norm_corr': 15.924284147924263, 'lm_R0': -692, 'lm_C0': -1181}
+[{'name': '0', 'x0': 3806, 'y0': 46840, 'w0': 40096, 'h0': 66816, 'norm_corr': 25.60909110857035, 'lm_R0': -2, 'lm_C0': 0}]
+[0 0]
+[ 10022.4   6014.4]
+fixing deformation field 
+
+lev2 deformation 
+
+level 1 row 1 / 64 
+
+level 1 row 2 / 64 
+
+level 1 row 3 / 64 
+
+level 1 row 4 / 64 
+
+level 1 row 5 / 64 
+
+level 1 row 6 / 64 
+
+level 1 row 7 / 64 
+
+level 1 row 8 / 64 
+
+level 1 row 9 / 64 
+
+level 1 row 10 / 64 
+
+level 1 row 11 / 64 
+
+level 1 row 12 / 64 
+
+level 1 row 13 / 64 
+
+level 1 row 14 / 64 
+
+level 1 row 15 / 64 
+
+level 1 row 16 / 64 
+
+level 1 row 17 / 64 
+
+level 1 row 18 / 64 
+
+level 1 row 19 / 64 
+
+level 1 row 20 / 64 
+
+level 1 row 21 / 64 
+
+level 1 row 22 / 64 
+
+level 1 row 23 / 64 
+
+level 1 row 24 / 64 
+
+level 1 row 25 / 64 
+
+level 1 row 26 / 64 
+
+level 1 row 27 / 64 
+
+level 1 row 28 / 64 
+
+level 1 row 29 / 64 
+
+level 1 row 30 / 64 
+
+level 1 row 31 / 64 
+
+level 1 row 32 / 64 
+
+level 1 row 33 / 64 
+
+level 1 row 34 / 64 
+
+level 1 row 35 / 64 
+
+level 1 row 36 / 64 
+
+level 1 row 37 / 64 
+
+level 1 row 38 / 64 
+
+level 1 row 39 / 64 
+
+level 1 row 40 / 64 
+
+level 1 row 41 / 64 
+
+level 1 row 42 / 64 
+
+level 1 row 43 / 64 
+
+level 1 row 44 / 64 
+
+level 1 row 45 / 64 
+
+level 1 row 46 / 64 
+
+level 1 row 47 / 64 
+
+level 1 row 48 / 64 
+
+level 1 row 49 / 64 
+
+level 1 row 50 / 64 
+
+level 1 row 51 / 64 
+
+level 1 row 52 / 64 
+
+level 1 row 53 / 64 
+
+level 1 row 54 / 64 
+
+level 1 row 55 / 64 
+
+level 1 row 56 / 64 
+
+level 1 row 57 / 64 
+
+level 1 row 58 / 64 
+
+level 1 row 59 / 64 
+
+level 1 row 60 / 64 
+
+level 1 row 61 / 64 
+
+level 1 row 62 / 64 
+
+level 1 row 63 / 64 
+
+level 1 row 64 / 64 
+
+level 0 row 1 / 256 
+
+level 0 row 2 / 256 
+
+level 0 row 3 / 256 
+
+level 0 row 4 / 256 
+
+level 0 row 5 / 256 
+
+level 0 row 6 / 256 
+
+level 0 row 7 / 256 
+
+level 0 row 8 / 256 
+
+level 0 row 9 / 256 
+
+level 0 row 10 / 256 
+
+level 0 row 11 / 256 
+
+level 0 row 12 / 256 
+
+level 0 row 13 / 256 
+
+level 0 row 14 / 256 
+
+level 0 row 15 / 256 
+
+level 0 row 16 / 256 
+
+level 0 row 17 / 256 
+
+level 0 row 18 / 256 
+
+level 0 row 19 / 256 
+
+level 0 row 20 / 256 
+
+level 0 row 21 / 256 
+
+level 0 row 22 / 256 
+
+level 0 row 23 / 256 
+
+level 0 row 24 / 256 
+
+level 0 row 25 / 256 
+
+level 0 row 26 / 256 
+
+level 0 row 27 / 256 
+
+level 0 row 28 / 256 
+
+level 0 row 29 / 256 
+
+level 0 row 30 / 256 
+
+level 0 row 31 / 256 
+
+level 0 row 32 / 256 
+
+level 0 row 33 / 256 
+
+level 0 row 34 / 256 
+
+level 0 row 35 / 256 
+
+level 0 row 36 / 256 
+
+level 0 row 37 / 256 
+
+level 0 row 38 / 256 
+
+level 0 row 39 / 256 
+
+level 0 row 40 / 256 
+
+level 0 row 41 / 256 
+
+level 0 row 42 / 256 
+
+level 0 row 43 / 256 
+
+level 0 row 44 / 256 
+
+level 0 row 45 / 256 
+
+level 0 row 46 / 256 
+
+level 0 row 47 / 256 
+
+level 0 row 48 / 256 
+
+level 0 row 49 / 256 
+
+level 0 row 50 / 256 
+
+level 0 row 51 / 256 
+
+level 0 row 52 / 256 
+
+level 0 row 53 / 256 
+
+level 0 row 54 / 256 
+
+level 0 row 55 / 256 
+
+level 0 row 56 / 256 
+
+level 0 row 57 / 256 
+
+level 0 row 58 / 256 
+
+level 0 row 59 / 256 
+
+level 0 row 60 / 256 
+
+level 0 row 61 / 256 
+
+level 0 row 62 / 256 
+
+level 0 row 63 / 256 
+
+level 0 row 64 / 256 
+
+level 0 row 65 / 256 
+
+level 0 row 66 / 256 
+
+level 0 row 67 / 256 
+
+level 0 row 68 / 256 
+
+level 0 row 69 / 256 
+
+level 0 row 70 / 256 
+
+level 0 row 71 / 256 
+
+level 0 row 72 / 256 
+
+level 0 row 73 / 256 
+
+level 0 row 74 / 256 
+
+level 0 row 75 / 256 
+
+level 0 row 76 / 256 
+
+level 0 row 77 / 256 
+
+level 0 row 78 / 256 
+
+level 0 row 79 / 256 
+
+level 0 row 80 / 256 
+
+level 0 row 81 / 256 
+
+level 0 row 82 / 256 
+
+level 0 row 83 / 256 
+
+level 0 row 84 / 256 
+
+level 0 row 85 / 256 
+
+level 0 row 86 / 256 
+
+level 0 row 87 / 256 
+
+level 0 row 88 / 256 
+
+level 0 row 89 / 256 
+
+level 0 row 90 / 256 
+
+level 0 row 91 / 256 
+
+level 0 row 92 / 256 
+
+level 0 row 93 / 256 
+
+level 0 row 94 / 256 
+
+level 0 row 95 / 256 
+
+level 0 row 96 / 256 
+
+level 0 row 97 / 256 
+
+level 0 row 98 / 256 
+
+level 0 row 99 / 256 
+
+level 0 row 100 / 256 
+
+level 0 row 101 / 256 
+
+level 0 row 102 / 256 
+
+level 0 row 103 / 256 
+
+level 0 row 104 / 256 
+
+level 0 row 105 / 256 
+
+level 0 row 106 / 256 
+
+level 0 row 107 / 256 
+
+level 0 row 108 / 256 
+
+level 0 row 109 / 256 
+
+level 0 row 110 / 256 
+
+level 0 row 111 / 256 
+
+level 0 row 112 / 256 
+
+level 0 row 113 / 256 
+
+level 0 row 114 / 256 
+
+level 0 row 115 / 256 
+
+level 0 row 116 / 256 
+
+level 0 row 117 / 256 
+
+level 0 row 118 / 256 
+
+level 0 row 119 / 256 
+
+level 0 row 120 / 256 
+
+level 0 row 121 / 256 
+
+level 0 row 122 / 256 
+
+level 0 row 123 / 256 
+
+level 0 row 124 / 256 
+
+level 0 row 125 / 256 
+
+level 0 row 126 / 256 
+
+level 0 row 127 / 256 
+
+level 0 row 128 / 256 
+
+level 0 row 129 / 256 
+
+level 0 row 130 / 256 
+
+level 0 row 131 / 256 
+
+level 0 row 132 / 256 
+
+level 0 row 133 / 256 
+
+level 0 row 134 / 256 
+
+level 0 row 135 / 256 
+
+level 0 row 136 / 256 
+
+level 0 row 137 / 256 
+
+level 0 row 138 / 256 
+
+level 0 row 139 / 256 
+
+level 0 row 140 / 256 
+
+level 0 row 141 / 256 
+
+level 0 row 142 / 256 
+
+level 0 row 143 / 256 
+
+level 0 row 144 / 256 
+
+level 0 row 145 / 256 
+
+level 0 row 146 / 256 
+
+level 0 row 147 / 256 
+
+level 0 row 148 / 256 
+
+level 0 row 149 / 256 
+
+level 0 row 150 / 256 
+
+level 0 row 151 / 256 
+
+level 0 row 152 / 256 
+
+level 0 row 153 / 256 
+
+level 0 row 154 / 256 
+
+level 0 row 155 / 256 
+
+level 0 row 156 / 256 
+
+level 0 row 157 / 256 
+
+level 0 row 158 / 256 
+
+level 0 row 159 / 256 
+
+level 0 row 160 / 256 
+
+level 0 row 161 / 256 
+
+level 0 row 162 / 256 
+
+level 0 row 163 / 256 
+
+level 0 row 164 / 256 
+
+level 0 row 165 / 256 
+
+level 0 row 166 / 256 
+
+level 0 row 167 / 256 
+
+level 0 row 168 / 256 
+
+level 0 row 169 / 256 
+
+level 0 row 170 / 256 
+
+level 0 row 171 / 256 
+
+level 0 row 172 / 256 
+
+level 0 row 173 / 256 
+
+level 0 row 174 / 256 
+
+level 0 row 175 / 256 
+
+level 0 row 176 / 256 
+
+level 0 row 177 / 256 
+
+level 0 row 178 / 256 
+
+level 0 row 179 / 256 
+
+level 0 row 180 / 256 
+
+level 0 row 181 / 256 
+
+level 0 row 182 / 256 
+
+level 0 row 183 / 256 
+
+level 0 row 184 / 256 
+
+level 0 row 185 / 256 
+
+level 0 row 186 / 256 
+
+level 0 row 187 / 256 
+
+level 0 row 188 / 256 
+
+level 0 row 189 / 256 
+
+level 0 row 190 / 256 
+
+level 0 row 191 / 256 
+
+level 0 row 192 / 256 
+
+level 0 row 193 / 256 
+
+level 0 row 194 / 256 
+
+level 0 row 195 / 256 
+
+level 0 row 196 / 256 
+
+level 0 row 197 / 256 
+
+level 0 row 198 / 256 
+
+level 0 row 199 / 256 
+
+level 0 row 200 / 256 
+
+level 0 row 201 / 256 
+
+level 0 row 202 / 256 
+
+level 0 row 203 / 256 
+
+level 0 row 204 / 256 
+
+level 0 row 205 / 256 
+
+level 0 row 206 / 256 
+
+level 0 row 207 / 256 
+
+level 0 row 208 / 256 
+
+level 0 row 209 / 256 
+
+level 0 row 210 / 256 
+
+level 0 row 211 / 256 
+
+level 0 row 212 / 256 
+
+level 0 row 213 / 256 
+
+level 0 row 214 / 256 
+
+level 0 row 215 / 256 
+
+level 0 row 216 / 256 
+
+level 0 row 217 / 256 
+
+level 0 row 218 / 256 
+
+level 0 row 219 / 256 
+
+level 0 row 220 / 256 
+
+level 0 row 221 / 256 
+
+level 0 row 222 / 256 
+
+level 0 row 223 / 256 
+
+level 0 row 224 / 256 
+
+level 0 row 225 / 256 
+
+level 0 row 226 / 256 
+
+level 0 row 227 / 256 
+
+level 0 row 228 / 256 
+
+level 0 row 229 / 256 
+
+level 0 row 230 / 256 
+
+level 0 row 231 / 256 
+
+level 0 row 232 / 256 
+
+level 0 row 233 / 256 
+
+level 0 row 234 / 256 
+
+level 0 row 235 / 256 
+
+level 0 row 236 / 256 
+
+level 0 row 237 / 256 
+
+level 0 row 238 / 256 
+
+level 0 row 239 / 256 
+
+level 0 row 240 / 256 
+
+level 0 row 241 / 256 
+
+level 0 row 242 / 256 
+
+level 0 row 243 / 256 
+
+level 0 row 244 / 256 
+
+level 0 row 245 / 256 
+
+level 0 row 246 / 256 
+
+level 0 row 247 / 256 
+
+level 0 row 248 / 256 
+
+level 0 row 249 / 256 
+
+level 0 row 250 / 256 
+
+level 0 row 251 / 256 
+
+level 0 row 252 / 256 
+
+level 0 row 253 / 256 
+
+level 0 row 254 / 256 
+
+level 0 row 255 / 256 
+
+level 0 row 256 / 256 
+
+Traceback (most recent call last):
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 544, in move
+    os.rename(src, real_dst)
+OSError: [Errno 18] Invalid cross-device link: 'mj-myelin-slice-243.tar.gz' -> '/scratch/aimantj/mj-myelin/mj-myelin-slice-243.tar.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aimantj/histology_shredder/python-shredder/shredder_accre_wrapper.py", line 31, in <module>
+    accre_cleanup(si['tmp_dir'], si['stor_dir'])
+  File "/gpfs22/home/aimantj/histology_shredder/python-shredder/file_utils.py", line 103, in accre_cleanup
+    shutil.move(src=tar_name+'.tar.gz', dst=stor_dir)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 558, in move
+    copy_function(src, real_dst)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 258, in copy2
+    copystat(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 225, in copystat
+    _copyxattr(src, dst, follow_symlinks=follow)
+  File "/home/aimantj/.conda/envs/shredenv/lib/python3.6/shutil.py", line 165, in _copyxattr
+    os.setxattr(dst, name, value, follow_symlinks=follow_symlinks)
+PermissionError: [Errno 13] Permission denied: '/scratch/aimantj/mj-myelin/mj-myelin-slice-243.tar.gz'
+slurmstepd: error: Exceeded step memory limit at some point.
